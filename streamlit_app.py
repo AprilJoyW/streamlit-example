@@ -7,6 +7,8 @@ import pandas
 import numpy as np
 #import sklearn
 from sklearn import datasets, svm, metrics
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 """
 # Welcome to Streamlit!
@@ -137,9 +139,7 @@ print(score)
 
 #Evaluate the model using the testing data. What is the model accuracy for the model? Use the model to make predictions 
 #and then generate a confusion matrix from the model. Interpret the confusion matrix and explain what each number means.
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn import metrics
+
 cm = metrics.confusion_matrix(y_test, predictions)
 
 plt.figure(figsize=(2,2))
