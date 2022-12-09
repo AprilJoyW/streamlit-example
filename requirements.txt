@@ -1,5 +1,4 @@
-altair
-pandas
-streamlit
-sklearn
-requests = "sklearn"
+pipenv install altair
+pipenv install pandas
+pipenv install streamlit
+pipenv install sklearn
