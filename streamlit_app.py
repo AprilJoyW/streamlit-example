@@ -3,6 +3,9 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+import pandas
+import numpy as np
+import sklearn 
 
 """
 # Welcome to Streamlit!
@@ -21,9 +24,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 
 #Read in the data, call the dataframe "s"  and check the dimensions of the dataframe
-import pandas
-import numpy as np
-from sklearn import datasets, svm, metrics
+
 s = pandas.read_csv("social_media_usage.csv")
 s.shape
 
