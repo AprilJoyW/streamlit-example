@@ -284,7 +284,7 @@ if gender == "Male":
 else: 
     gendernum = 0
 
-age = st.slider(lapply="Age",
+age = st.slider("Age",
                 min_value=0,
                 max_value=98,
                 value=50)
