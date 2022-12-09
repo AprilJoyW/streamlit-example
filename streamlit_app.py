@@ -202,7 +202,7 @@ educ = st.selectbox("Formal Education Level",
                              "Four-year college",
                              "Some postgraduate",
                              "Postgraduate degree"])
-st.write("Education: {educ}")
+st.write("Education:" {educ})
 
 if educ == "Less than high school":
     educ2 = 1
@@ -233,7 +233,7 @@ income = st.selectbox("Select Income",
                              "75 to under $100,000",
                              "100 to under $150,000",
                              "$150,000 or more"])
-st.write("Income: {income}")
+st.write("Income:"{income})
 if income == "Less than $10,000":
     incomenumber = 1
 elif income == "10 to under $20,000":
@@ -258,7 +258,7 @@ else:
 parent = st.selectbox("Are you a parent of a child under 18 living in your home?",
                    options= ["Yes",
                              "No"])
-st.write("Parent: {parent}")
+st.write("Parent:"{parent})
 if parent == "Yes":
     par = 1
 else: 
@@ -267,7 +267,7 @@ else:
 married = st.selectbox("Are currently married?",
                    options= ["Yes",
                              "No"])
-st.write("Married: {married}")
+st.write("Married:"{married})
 if married == "Yes":
     marital = 1
 else: 
@@ -278,7 +278,7 @@ gender = st.selectbox("Gender",
                              "Female",
                             "Non-Binary",
                             "Other"])
-st.write("Gender: {gender}")
+st.write("Gender:"{gender})
 if gender == "Male":
     gendernum = 1
 else: 
@@ -288,13 +288,13 @@ age = st.slider("Age",
                 min_value=0,
                 max_value=98,
                 value=50)
-st.write("Age: {age}")
+st.write("Age:"{age})
 #"marital","age", "gender","par","educ2","income"]
 if logisticRegr.predict(np.array([[1,82,1,0,7,8]])) == 1:
     prediction = "You are a Linkedin user."
 else: prediction = "You are not a Linkedin user."
 
-st.write("Prediction: {prediction}")
+st.write("Prediction:"{prediction})
 
 
 # In[ ]:
