@@ -1,4 +1,5 @@
-pipenv install altair
-pipenv install pandas
-pipenv install streamlit
-pipenv install sklearn
+altair
+pandas
+streamlit
+scikit-learn
+sklearn
