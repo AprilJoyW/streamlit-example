@@ -290,7 +290,7 @@ age = st.slider("Age",
                 value=50)
 st.write(f"Age: {age}")
 #"marital","age", "gender","par","educ2","income"]
-if logisticRegr.predict(np.array([[1,82,1,0,7,8]])) == 1:
+if logisticRegr.predict(np.array([[{marital},{age},{gender},{par},{educ2},{incomenumber}]])) == 1:
     prediction = "You are a Linkedin user."
 else: prediction = "You are not a Linkedin user."
 
