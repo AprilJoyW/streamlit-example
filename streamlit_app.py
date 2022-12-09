@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 import pandas
 import numpy as np
-from sklearn import datasets, svm, metrics
+#from sklearn import datasets, svm, metrics
 
 """
 # Welcome to Streamlit!
