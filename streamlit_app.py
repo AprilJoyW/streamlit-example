@@ -5,6 +5,7 @@ import pandas as pd
 import streamlit as st
 import pandas
 import numpy as np
+import sklearn
 #from sklearn import datasets, svm, metrics
 
 """
