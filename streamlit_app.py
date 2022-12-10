@@ -301,7 +301,7 @@ st.write(f"Age: {age}")
 #list =np.array([[marital,age,gender,par,educ2,incomenumber]])
 #print(list)
 answer = logisticRegr.predict_proba(np.array([[marital,age,gendernum,par,educ2,incomenumber]]))
-answer = pandas.DataFrame[answer,columns = "No","Yes"]
+answer = pandas.DataFrame(answer,columns = ["No","Yes"])
 answer = answer["Yes"]
 
 
