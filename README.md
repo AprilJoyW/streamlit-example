@@ -1,6 +1,5 @@
-# Welcome to Streamlit!
+# Linkedin Users
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire. :heart:
+Fill out the questions below to see if you are categorized correctly as a Linkedin user or not! :heart:
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+
