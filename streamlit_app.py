@@ -291,12 +291,12 @@ age = st.slider("Age",
 st.write(f"Age: {age}")
 #"marital","age", "gender","par","educ2","income"]
 
-marital = pandas.to_numeric(marital)
-age = pandas.to_numeric(age)
-gendernum = pandas.to_numeric(gendernum)
-par = pandas.to_numeric(par)
-educ2 = pandas.to_numeric(educ2)
-incomenumber = pandas.to_numeric(incomenumber)
+#marital = pandas.to_numeric(marital)
+#age = pandas.to_numeric(age)
+#gendernum = pandas.to_numeric(gendernum)
+#par = pandas.to_numeric(par)
+#educ2 = pandas.to_numeric(educ2)
+#incomenumber = pandas.to_numeric(incomenumber)
 
 list =np.array([[marital,age,gender,par,educ2,incomenumber]])
 print(list)
