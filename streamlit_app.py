@@ -11,14 +11,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 """
-# Welcome to Streamlit!
+# Linkedin User?
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
+Fill out the following questions to see if you are a predicted Linkedin user or not. :heart:
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
-
-In the meantime, below is an example of what you can do with just a few lines of code:
 """
 #!/usr/bin/env python
 # coding: utf-8
