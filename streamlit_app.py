@@ -310,7 +310,7 @@ if logisticRegr.predict(np.array([[marital,age,gendernum,par,educ2,incomenumber]
 else: prediction = "You are not a Linkedin user."
 
 st.write(f"Prediction: {prediction}")
-st.write(f"Accuravy: {answer}")
+st.write(f"Probability: {answer}")
 
 
 # In[ ]:
