@@ -298,9 +298,9 @@ st.write(f"Age: {age}")
 #educ2 = pandas.to_numeric(educ2)
 #incomenumber = pandas.to_numeric(incomenumber)
 
-list =np.array([[marital,age,gender,par,educ2,incomenumber]])
-print(list)
-logisticRegr.predict(list)
+#list =np.array([[marital,age,gender,par,educ2,incomenumber]])
+#print(list)
+logisticRegr.predict(np.array([[marital,age,gender,par,educ2,incomenumber]]))
 
 #if logisticRegr.predict(list) == 1:
  #   prediction = "You are a Linkedin user."
