@@ -300,7 +300,7 @@ st.write(f"Age: {age}")
 
 #list =np.array([[marital,age,gender,par,educ2,incomenumber]])
 #print(list)
-logisticRegr.predict(np.array([[marital,age,gender,par,educ2,incomenumber]]))
+logisticRegr.predict(np.array([[marital,age,gendernum,par,educ2,incomenumber]]))
 
 #if logisticRegr.predict(list) == 1:
  #   prediction = "You are a Linkedin user."
