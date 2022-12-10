@@ -25,7 +25,7 @@ Fill out the following questions to see if you are a predicted Linkedin user or 
 #Read in the data, call the dataframe "s"  and check the dimensions of the dataframe
 
 s = pandas.read_csv("social_media_usage.csv")
-s.shape
+#s.shape
 
 
 # In[3]:
@@ -71,7 +71,7 @@ ss = s[(s["income"] < 10) &
 # In[6]:
 
 
-ss.head(5)
+#ss.head(5)
 
 
 # In[51]:
@@ -79,9 +79,9 @@ ss.head(5)
 
 #Create a target vector (y) and feature set (X)
 x_ss = ss[["marital","age", "gender","par","educ2","income"]]
-x_ss.shape
+#x_ss.shape
 y_ss = ss['sm_li']
-y_ss.shape
+#y_ss.shape
 
 
 # In[52]:
