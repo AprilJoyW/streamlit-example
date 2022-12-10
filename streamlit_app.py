@@ -296,7 +296,7 @@ age = pandas.to_numeric(age)
 gender = pandas.to_numeric(gender)
 par = pandas.to_numeric(par)
 educ2 = pandas.to_numeric(educ2)
-incomenumbe r= pandas.to_numeric(incomenumber)
+incomenumber = pandas.to_numeric(incomenumber)
 
 if logisticRegr.predict({marital},{age},{gender},{par},{educ2},{incomenumber}) == 1:
     prediction = "You are a Linkedin user."
