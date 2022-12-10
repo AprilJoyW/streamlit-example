@@ -298,9 +298,11 @@ par = pandas.to_numeric(par)
 educ2 = pandas.to_numeric(educ2)
 incomenumber = pandas.to_numeric(incomenumber)
 
-print(np.array([[{marital},{age},{gender},{par},{educ2},{incomenumber}]]))
+list =np.array([[{marital},{age},{gender},{par},{educ2},{incomenumber}]])
+print(list)
+logisticRegr.predict(list)
 
-#if logisticRegr.predict(np.array([[{marital},{age},{gender},{par},{educ2},{incomenumber}]])) == 1:
+#if logisticRegr.predict(list) == 1:
  #   prediction = "You are a Linkedin user."
 #else: prediction = "You are not a Linkedin user."
 
