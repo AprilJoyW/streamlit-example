@@ -290,6 +290,13 @@ age = st.slider("Age",
                 value=50)
 st.write(f"Age: {age}")
 #"marital","age", "gender","par","educ2","income"]
+marital= pandas.to_numeric(marital)
+age= pandas.to_numeric(age)
+gender= pandas.to_numeric(gender)
+par= pandas.to_numeric(par)
+educ2= pandas.to_numeric(educ2)
+incomenumber= pandas.to_numeric(incomenumber)
+
 if logisticRegr.predict(np.array([[{marital},{age},{gender},{par},{educ2},{incomenumber}]])) == 1:
     prediction = "You are a Linkedin user."
 else: prediction = "You are not a Linkedin user."
