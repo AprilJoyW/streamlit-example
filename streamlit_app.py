@@ -300,11 +300,11 @@ incomenumber = pandas.to_numeric(incomenumber)
 
 print(np.array([[{marital},{age},{gender},{par},{educ2},{incomenumber}]]))
 
-if logisticRegr.predict(np.array([[{marital},{age},{gender},{par},{educ2},{incomenumber}]])) == 1:
-    prediction = "You are a Linkedin user."
-else: prediction = "You are not a Linkedin user."
+#if logisticRegr.predict(np.array([[{marital},{age},{gender},{par},{educ2},{incomenumber}]])) == 1:
+ #   prediction = "You are a Linkedin user."
+#else: prediction = "You are not a Linkedin user."
 
-st.write(f"Prediction: {prediction}")
+#st.write(f"Prediction: {prediction}")
 
 
 # In[ ]:
