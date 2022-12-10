@@ -293,7 +293,7 @@ st.write(f"Age: {age}")
 
 marital = pandas.to_numeric(marital)
 age = pandas.to_numeric(age)
-gender = pandas.to_numeric(gender)
+gendernum = pandas.to_numeric(gendernum)
 par = pandas.to_numeric(par)
 educ2 = pandas.to_numeric(educ2)
 incomenumber = pandas.to_numeric(incomenumber)
