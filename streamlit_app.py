@@ -302,7 +302,7 @@ st.write(f"Age: {age}")
 #print(list)
 answer = logisticRegr.predict_proba(np.array([[marital,age,gendernum,par,educ2,incomenumber]]))
 answer = pandas.DataFrame(answer,columns = ["No","Yes"])
-answer = answer["Yes"].value
+answer = answer["Yes"][0]
 
 
 if logisticRegr.predict(np.array([[marital,age,gendernum,par,educ2,incomenumber]])) == 1:
